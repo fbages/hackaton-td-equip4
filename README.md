@@ -1,14 +1,13 @@
 
-# Repte 4 CRUD - FBages
+# NUWE TEST CSV TO JSON
 
-Node js REST API to manage products and services
+Node js REST API to manage CSV files and convert to JSON responses
 
 ## Import project
 
 Follow the steps below:
 
 * Notes and prerequisites  
-Project uses MongoDB database, install it before use this project 
 
 * Clone the project from the Github Platform. Execute:
   ```
@@ -31,14 +30,5 @@ https://github.com/fbages/hackatonprevi
 
 It contains following requests:
 
-- GET Retrieve all products
-- GET Retrieve one product
-- POST New product
-- PUT Update product
-- DEL Delete product
-- GET Retrieve all services
-- GET Retrieve one service
-- POST New service
-- PUT Update service
-- DEL Delete service
-- GET 404 - Not found
+- POST /convertidorcsv - Body with CSV file to be converted to Json response
+- ALL 404 - Not found

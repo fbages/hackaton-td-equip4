@@ -1,21 +1,18 @@
 const express = require('express');
+const helmet = require('helmet');
 const notfound404 = require('./middlewares/notfound404');
 const http = require('http')
 const app = express();
 const server = http.createServer(app);
-const routerProducts = require('./routes/routesProducts');
-const routerServices = require('./routes/routesServices');
-
-//DB config
-const db = require('./config/config');
+const routerCsv = require('./routes/routesCsv');
 
 //Middlewares
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+app.use(helmet());
 
 //Routes
-app.use(routerProducts);
-app.use(routerServices);
+app.use(routerCsv);
 
 //Middleware ErrorHandler
 app.use(notfound404);
