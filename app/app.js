@@ -25,7 +25,7 @@ app.use(router.get('', (req,res)=>{
 
 app.use(router.get('/hola', (req,res)=>{
   console.log('Arribada solucitud');
-  res.send('hola');
+  res.send('hola Ana que ase?');
 }));
 
 //Middleware ErrorHandler
