@@ -4,12 +4,12 @@ const validation = require('./middlewares/validator');
 const http = require('http')
 const app = express();
 const server = http.createServer(app);
-const routerProducts = require('./routes/routesProducts');
-const routerServices = require('./routes/routesServices');
+//const routerProducts = require('./routes/routesProducts');
+//const routerServices = require('./routes/routesServices');
 const router = express.Router();
 
 //DB config
-const db = require('./config/config');
+//const db = require('./config/config');
 
 //Middlewares
 app.use(express.urlencoded({extended: true}));
