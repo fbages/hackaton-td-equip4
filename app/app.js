@@ -1,31 +1,28 @@
+const dotenv = require('dotenv').config();
 const express = require('express');
 const errorHandler = require('./middlewares/errorHandler');
 const validation = require('./middlewares/validator');
 const http = require('http')
 const app = express();
 const server = http.createServer(app);
-//const routerProducts = require('./routes/routesProducts');
-//const routerServices = require('./routes/routesServices');
+const routerProducts = require('./routes/routesProducts');
+const routerServices = require('./routes/routesServices');
 const router = express.Router();
 
 //DB config
-//const db = require('./config/config');
+const db = require('./config/config');
 
 //Middlewares
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 //Routes
-// app.use(routerProducts);
-// app.use(routerServices);
+app.use(routerProducts);
+app.use(routerServices);
+
 app.use(router.get('', (req,res)=>{
   console.log('Arribada solucitud');
   res.send('inici');
-}));
-
-app.use(router.get('/hola', (req,res)=>{
-  console.log('Arribada solucitud');
-  res.send('hola Ana que ase?');
 }));
 
 //Middleware ErrorHandler
