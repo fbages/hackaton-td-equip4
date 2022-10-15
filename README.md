@@ -1,5 +1,5 @@
 
-# Node Initial Project
+# Hackaton Talent Digital - Equip 6
 
 ### Project Structure
 
