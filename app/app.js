@@ -6,6 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const routerProducts = require('./routes/routesProducts');
 const routerServices = require('./routes/routesServices');
+const router = express.Router();
 
 //DB config
 const db = require('./config/config');
@@ -15,8 +16,12 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 //Routes
- app.use(routerProducts);
- app.use(routerServices);
+// app.use(routerProducts);
+// app.use(routerServices);
+app.use(router.get('/hola', (req,res)=>{
+  console.log('Arribada solucitud');
+  res.send('hola');
+}));
 
 //Middleware ErrorHandler
 app.use(errorHandler);
