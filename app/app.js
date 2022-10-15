@@ -18,6 +18,11 @@ app.use(express.json());
 //Routes
 // app.use(routerProducts);
 // app.use(routerServices);
+app.use(router.get('', (req,res)=>{
+  console.log('Arribada solucitud');
+  res.send('inici');
+}));
+
 app.use(router.get('/hola', (req,res)=>{
   console.log('Arribada solucitud');
   res.send('hola');
@@ -35,7 +40,7 @@ app.use(function(req, res, next) {
   }
 });
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
     console.log(`Server is listening in port ${PORT}`)
 })
