@@ -1,51 +1,50 @@
+# 💻  HACKATON · Talent Digigal - BACK END
+---
+#  DESCRIPCIÓN DEL PROYECTO:
 
-# Hackaton Talent Digital - Equip 6
+## 👇 Importar el proyecto para utilizar con Visual Studio Code:
 
-### Project Structure
-
-Main structure of node.js project. Folders / files:
-
-- <b>\_\_tests__</b>. Tests folder. See [Jest Docs](https://jestjs.io/es-ES/docs/configuration) and [Chai Docs](https://www.chaijs.com/)
-- <b>app</b>:
-    - <b>config</b>
-    - <b>controllers</b>
-    - <b>middlewares</b>
-    - <b>models</b>
-    - <b>routes</b>
-    - <b>helpers</b>
-    - <b>app.js</b>. Entry point.
-- <b>package.json</b>.
-- <b>.env</b>. Environment descriptor. See [dotenv doc](https://www.npmjs.com/package/dotenv).
-
-Extras:
-- <b>.eslintrc</b>. Linter JS, static code analyzer. See [EsLint Docs](https://eslint.org/docs/user-guide/configuring/configuration-files).
-- <b>.prettierignore</b>. Code formatter. See [Prettier Config](https://prettier.io/docs/en/configuration.html) and [Prettier Ignore](https://prettier.io/docs/en/ignore.html).
-- <b>.ecosystem.config.js</b>. Process Manage at runtime. See [PM2 Docs](https://pm2.keymetrics.io/).
-
-### Import project for use with Visual Studio Code
-
-Follow the steps below:
-* Clone the project from the Github Platform. Execute:
+iegue los pasos detallados a continuación:
+* Clona el proyecto desde Github Platform. Ejecuta:
   ```
   git clone [url project]
   ```
-* Open the project downloaded.
-  ![Open Project](img/VSC_open.png)
+* Abre el proyecto descargado.
 
 
-### Import project for use with WebStorm
 
-Follow the steps below:
-* Clone the project from the Github Platform. Execute:
-  ```
-  git clone [url project]
-  ```
-* Open the project downloaded.
-![Open Project](img/webstorm_open.png)
+## 💾  Utilidades que se han de instalar antes de ejecutar la aplicación:
+
+Para instalar las dependencias necesarias, con las que se ha desarrollado la aplicación:
+
+* npm i
+
+* npm start
 
 
-### Utilities
+## 🔎 Endpoints para acceder a la aplicación:
 
-* [Node Developers Guide](https://nodejs.dev/learn)
-* **.gitignore file** configuration. See [Official Docs](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files).
-* **Git branches**. See [Official Docs](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+Recibimos los datos, por parte del equipo de Data Science, con el archivo 'dades.json', y necesitamos convertir algunos de estos datos recibidos con caracteres acentuados y que están codificados en formato Unicode. 
+Para ello se pasa el siguiente endpoint con el fin de sustituir estos caracteres a formato UTF-8, para que sean compatibles con los datos que trabaja el equipo de Front-End.
+Convierte los datos del archivo CSV a JSON.
+
+
+
+ > **POST/convertidorcsv**
+
+La KEY en el body ha de ser 'file', del fichero CSV.
+
+
+Con el siguiente endpoint nos retorna la información de todos los barrios, en formato JSON.
+  
+ > **GET/barris**
+
+
+Con el siguiente endpoint se le tiene que indicar el  nombre del barrio (:nom) del cual nos interese recibir la información.
+
+ > **GET/barri/:nom**
+  
+
+Todos los endpoints anteriores los recoge la parte de Front para consumir las API.
+
+
