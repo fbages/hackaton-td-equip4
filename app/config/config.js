@@ -1,7 +1,7 @@
 const dotenv = require('dotenv').config();
 const mongoose = require("mongoose");
-const productSchema = require("../models/modelProduct");
-const serviceSchema = require("../models/modelService");
+const barrisSchema = require("../models/modelData");
+// const serviceSchema = require("../models/modelService");
 
 let db = {};
 

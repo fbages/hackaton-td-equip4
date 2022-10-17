@@ -1,8 +1,8 @@
 const crud = require('../helpers/crudMongoDB');
 
-exports.getAllProducts = async (req, res, next) => {
+exports.getAllBarris = async (req, res, next) => {
     try {
-        let llistat = await crud.getAllItems("products");
+        let llistat = await crud.getAllItems("barris");
         res.json(llistat);
     } catch (err) {
         res.status(400);
@@ -10,10 +10,10 @@ exports.getAllProducts = async (req, res, next) => {
     }
 }
 
-exports.getProduct = async (req, res, next) => {
+exports.getBarri = async (req, res, next) => {
     try {
         let index = req.params.id;
-        let result = await crud.getItem("products", index);
+        let result = await crud.getItem("barris", index);
         if(result !=null){
             res.json(result);
         } else {
@@ -60,9 +60,9 @@ exports.updateProduct = async (req, res, next) => {
     }
 }
 
-exports.deleteProduct = async (req, res, next) => {
+exports.deleteBarri = async (req, res, next) => {
     try {
-        let result = await crud.deleteItem('products', req.params.id);
+        let result = await crud.deleteItem('barris', req.params.id);
         if(result.deletedCount == 1){
             res.json("Product deleted");
         } else {

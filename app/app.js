@@ -6,6 +6,7 @@ const http = require('http')
 const app = express();
 const server = http.createServer(app);
 const routerCsv = require('./routes/routesCsv');
+const routerBarris = require('./routes/routesBarris');
 const router = express.Router();
 
 //DB config
@@ -17,6 +18,7 @@ app.use(express.json());
 
 //Routes
 app.use(routerCsv);
+app.use(routerBarris);
 
 app.use(router.get('', (req,res)=>{
   console.log('Arribada solucitud');
