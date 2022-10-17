@@ -12,8 +12,6 @@ const router = express.Router();
 //DB config
 const db = require('./config/config');
 
-console.log(Buffer.from("el Barri G\u00f2tic",'utf-8').toString());
-
 //Middlewares
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
