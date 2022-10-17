@@ -7,7 +7,7 @@
 iegue los pasos detallados a continuación:
 * Clona el proyecto desde Github Platform. Ejecuta:
   ```
-  git clone [url project]
+  git clone https://github.com/fbages/hackaton-td-equip4.git
   ```
 * Abre el proyecto descargado.
 
