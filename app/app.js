@@ -5,8 +5,7 @@ const validation = require('./middlewares/validator');
 const http = require('http')
 const app = express();
 const server = http.createServer(app);
-const routerProducts = require('./routes/routesProducts');
-const routerServices = require('./routes/routesServices');
+const routerCsv = require('./routes/routesCsv');
 const router = express.Router();
 
 //DB config
@@ -17,8 +16,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 //Routes
-app.use(routerProducts);
-app.use(routerServices);
+app.use(routerCsv);
 
 app.use(router.get('', (req,res)=>{
   console.log('Arribada solucitud');

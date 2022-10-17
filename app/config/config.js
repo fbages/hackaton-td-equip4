@@ -12,8 +12,8 @@ let db = {};
     await mongoose.connect(process.env.DATABASE_HOST + process.env.DATABASE_USER + ":" + process.env.DATABASE_PASSWORD + "@" + process.env.DATABASE_NAME);
     console.log("Conectat a la base de dades de MongoDB");
 
-    db.products = mongoose.model("products", productSchema);
-    db.services = mongoose.model("services", serviceSchema);
+    db.barris = mongoose.model("barris", barrisSchema);
+    // db.services = mongoose.model("services", serviceSchema);
   }
 
   module.exports = db;
