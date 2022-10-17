@@ -1,7 +1,6 @@
 const dotenv = require('dotenv').config();
 const mongoose = require("mongoose");
 const barrisSchema = require("../models/modelData");
-// const serviceSchema = require("../models/modelService");
 
 let db = {};
 
@@ -13,7 +12,6 @@ let db = {};
     console.log("Conectat a la base de dades de MongoDB");
 
     db.barris = mongoose.model("barris", barrisSchema);
-    // db.services = mongoose.model("services", serviceSchema);
   }
 
   module.exports = db;

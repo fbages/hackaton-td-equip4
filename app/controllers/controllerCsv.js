@@ -32,6 +32,8 @@ exports.csvToJson = async (req, res) => {
     jsonFile.data.push(obj);
 }
 //Torna un json
+
+
 res.json(jsonFile);
 } else {
     res.status(400);
