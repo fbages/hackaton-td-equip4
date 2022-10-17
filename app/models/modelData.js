@@ -2,7 +2,7 @@ const { Schema } = require('mongoose');
 
 const barriSchema = new Schema({
     id : {type: Number, required:true},
-    nombreBarri : {type: String, required:true},
+    "NOMBRE DEL BARRIO" : {type: String, required:true},
     formacionNum : {type: Number, required:true},
     paradosNum : {type: Number, required:true},
     rentaNum : {type: Number, required:true},

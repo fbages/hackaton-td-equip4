@@ -25,6 +25,26 @@ exports.getBarri = async (req, res, next) => {
         res.json(err)
     }
 }
+exports.getBarriNom = async (req, res, next) => {
+    console.log(req.params.nom);
+    try {
+        // console.log(Buffer.from("el Barri G\u00f2tic",'utf-8').toString());
+
+        let nomBarri = Buffer.from(req.params.nom,'utf-8').toString();
+        
+        let result = await crud.getItemNom("barris", nomBarri);
+        console.log(result);
+        if(result !=null){
+            res.json(result);
+        } else {
+            res.status(404);
+            res.json({ error: 'Product not found' });
+        }
+    } catch (err) {
+        res.status(500);
+        res.json(err)
+    }
+}
 
 exports.newProduct = async (req, res, next) => {
     try {

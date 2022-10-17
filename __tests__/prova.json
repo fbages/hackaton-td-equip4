@@ -1,0 +1,686 @@
+{
+  "help": "https://opendata-ajuntament.barcelona.cat/data/api/3/action/help_show?name=datastore_search",
+  "success": true,
+  "result": {
+    "resource_id": "ed515bb8-502b-4dff-96dc-769f72767919",
+    "fields": [
+      { "type": "int4", "id": "_id" },
+      { "type": "text", "id": "CODI_DIVISIO_TERRITORIAL" },
+      { "type": "text", "id": "NOM_DIVISIO_TERRITORIAL" },
+      { "type": "text", "id": "CATEGORIA_DIVISIO" },
+      { "type": "text", "id": "CODI_DIVISIO_TERRITORIAL_PARE" },
+      { "type": "text", "id": "URL_FITXA_DIVISIO_TERRITORIAL" }
+    ],
+    "records": [
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Raval",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri1.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-01",
+        "_id": 1,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-01"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Barri G\u00f2tic",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri2.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-02",
+        "_id": 2,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-01"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Barceloneta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri3.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-03",
+        "_id": 3,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-01"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Pere, Santa Caterina i la Ribera",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri4.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-04",
+        "_id": 4,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-01"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Fort Pienc",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri5.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-05",
+        "_id": 5,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Sagrada Fam\u00edlia",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri6.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-06",
+        "_id": 6,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Dreta de l'Eixample",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri7.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-07",
+        "_id": 7,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "l'Antiga Esquerra de l'Eixample",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri8.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-08",
+        "_id": 8,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Nova Esquerra de l'Eixample",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri9.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-09",
+        "_id": 9,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Antoni",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri10.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-10",
+        "_id": 10,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-02"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Poble-sec",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri11.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-11",
+        "_id": 11,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Marina del Prat Vermell",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri12.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-12",
+        "_id": 12,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Marina de Port",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri13.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-13",
+        "_id": 13,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Font de la Guatlla",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri14.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-14",
+        "_id": 14,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Hostafrancs",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri15.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-15",
+        "_id": 15,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Bordeta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri16.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-16",
+        "_id": 16,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sants - Badal",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri17.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-17",
+        "_id": 17,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sants",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri18.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-18",
+        "_id": 18,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-03"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "les Corts",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri19.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-19",
+        "_id": 19,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-04"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Maternitat i Sant Ramon",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri20.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-20",
+        "_id": 20,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-04"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Pedralbes",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri21.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-21",
+        "_id": 21,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-04"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Vallvidrera, el Tibidabo i les Planes",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri22.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-22",
+        "_id": 22,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sarri\u00e0",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri23.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-23",
+        "_id": 23,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "les Tres Torres",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri24.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-24",
+        "_id": 24,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Gervasi - la Bonanova",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri25.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-25",
+        "_id": 25,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Gervasi - Galvany",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri26.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-26",
+        "_id": 26,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Putxet i el Farr\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri27.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-27",
+        "_id": 27,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-05"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Vallcarca i els Penitents",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri28.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-28",
+        "_id": 28,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-06"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Coll",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri29.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-29",
+        "_id": 29,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-06"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Salut",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri30.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-30",
+        "_id": 30,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-06"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Vila de Gr\u00e0cia",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri31.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-31",
+        "_id": 31,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-06"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Camp d'en Grassot i Gr\u00e0cia Nova",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri32.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-32",
+        "_id": 32,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-06"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Baix Guinard\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri33.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-33",
+        "_id": 33,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Can Bar\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri34.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-34",
+        "_id": 34,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Guinard\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri35.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-35",
+        "_id": 35,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Font d'en Fargues",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri36.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-36",
+        "_id": 36,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Carmel",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri37.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-37",
+        "_id": 37,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Teixonera",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri38.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-38",
+        "_id": 38,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Gen\u00eds dels Agudells",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri39.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-39",
+        "_id": 39,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Montbau",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri40.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-40",
+        "_id": 40,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Vall d'Hebron",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri41.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-41",
+        "_id": 41,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Clota",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri42.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-42",
+        "_id": 42,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Horta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri43.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-43",
+        "_id": 43,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-07"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Vilapicina i la Torre Llobeta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri44.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-44",
+        "_id": 44,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Porta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri45.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-45",
+        "_id": 45,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Tur\u00f3 de la Peira",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri46.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-46",
+        "_id": 46,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Can Peguera",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri47.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-47",
+        "_id": 47,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Guineueta",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri48.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-48",
+        "_id": 48,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Canyelles",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri49.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-49",
+        "_id": 49,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "les Roquetes",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri50.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-50",
+        "_id": 50,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Verdun",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri51.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-51",
+        "_id": 51,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Prosperitat",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri52.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-52",
+        "_id": 52,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Trinitat Nova",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri53.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-53",
+        "_id": 53,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Torre Bar\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri54.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-54",
+        "_id": 54,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Ciutat Meridiana",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri55.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-55",
+        "_id": 55,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Vallbona",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri56.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-56",
+        "_id": 56,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-08"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Trinitat Vella",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri57.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-57",
+        "_id": 57,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Bar\u00f3 de Viver",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri58.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-58",
+        "_id": 58,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Bon Pastor",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri59.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-59",
+        "_id": 59,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Andreu",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri60.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-60",
+        "_id": 60,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Sagrera",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri61.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-61",
+        "_id": 61,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Congr\u00e9s i els Indians",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri62.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-62",
+        "_id": 62,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Navas",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri63.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-63",
+        "_id": 63,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-09"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Camp de l'Arpa del Clot",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri64.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-64",
+        "_id": 64,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Clot",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri65.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-65",
+        "_id": 65,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Parc i la Llacuna del Poblenou",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri66.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-66",
+        "_id": 66,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Vila Ol\u00edmpica del Poblenou",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri67.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-67",
+        "_id": 67,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Poblenou",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri68.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-68",
+        "_id": 68,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Diagonal Mar i el Front Mar\u00edtim del Poblenou",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri69.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-69",
+        "_id": 69,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "el Bes\u00f2s i el Maresme",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri70.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-70",
+        "_id": 70,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Proven\u00e7als del Poblenou",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri71.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-71",
+        "_id": 71,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Mart\u00ed de Proven\u00e7als",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri72.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-72",
+        "_id": 72,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Barri",
+        "NOM_DIVISIO_TERRITORIAL": "la Verneda i la Pau",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "https://ajuntament.barcelona.cat/estadistica/catala/Estadistiques_per_territori/Barris/Fitxes/a2019/barri73.pdf",
+        "CODI_DIVISIO_TERRITORIAL": "B-73",
+        "_id": 73,
+        "CODI_DIVISIO_TERRITORIAL_PARE": "D-10"
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Ciutat Vella",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-01",
+        "_id": 74,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Eixample",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-02",
+        "_id": 75,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Sants-Montju\u00efc",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-03",
+        "_id": 76,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Les Corts",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-04",
+        "_id": 77,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Sarri\u00e0-Sant Gervasi",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-05",
+        "_id": 78,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Gr\u00e0cia",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-06",
+        "_id": 79,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Horta-Guinard\u00f3",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-07",
+        "_id": 80,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Nou Barris",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-08",
+        "_id": 81,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Andreu",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-09",
+        "_id": 82,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      },
+      {
+        "CATEGORIA_DIVISIO": "Districte",
+        "NOM_DIVISIO_TERRITORIAL": "Sant Mart\u00ed",
+        "URL_FITXA_DIVISIO_TERRITORIAL": "",
+        "CODI_DIVISIO_TERRITORIAL": "D-10",
+        "_id": 83,
+        "CODI_DIVISIO_TERRITORIAL_PARE": ""
+      }
+    ],
+    "_links": {
+      "start": "/api/action/datastore_search?resource_id=ed515bb8-502b-4dff-96dc-769f72767919",
+      "next": "/api/action/datastore_search?offset=100&resource_id=ed515bb8-502b-4dff-96dc-769f72767919"
+    },
+    "total": 83
+  }
+}
