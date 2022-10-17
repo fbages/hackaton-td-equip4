@@ -12,7 +12,7 @@ module.exports = {
 }
 
 async function getAllItems(collection) {
-    let llistat = await db[collection].find({}).limit(1);
+    let llistat = await db[collection].find({});
     console.log(llistat);
     return llistat;
 }
