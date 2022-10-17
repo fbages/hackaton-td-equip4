@@ -4,6 +4,7 @@ module.exports = {
 
     getAllItems,
     getItem,
+    getItemNom,
     createItem,
     updateItem,
     deleteItem
@@ -12,11 +13,17 @@ module.exports = {
 
 async function getAllItems(collection) {
     let llistat = await db[collection].find({});
+    console.log(llistat);
     return llistat;
 }
 
 async function getItem(collection, index) {
     let item = await db[collection].findOne({ id: index });
+    return item;
+}
+async function getItemNom(collection, nomBarri) {
+    console.log(nomBarri);
+    let item = await db[collection].find({"NOMBRE DEL BARRIO": nomBarri});
     return item;
 }
 
