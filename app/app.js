@@ -5,6 +5,7 @@ const validation = require('./middlewares/validator');
 const http = require('http')
 const app = express();
 const server = http.createServer(app);
+const cors = require('cors');
 const routerCsv = require('./routes/routesCsv');
 const routerBarris = require('./routes/routesBarris');
 const router = express.Router();
@@ -15,6 +16,7 @@ const db = require('./config/config');
 //Middlewares
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+app.use(cors())
 
 //Routes
 app.use(routerCsv);
